@@ -1,7 +1,7 @@
 .nav {
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: 100vw;
     background-color: #f9f9fa;
     padding: 20px 50px;
     box-sizing: border-box;
@@ -14,5 +14,32 @@
 }
 
 .nav__link {
+    position: relative;
     color: #2f363e;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+.nav__dot {
+    background-color: tomato;
+    display: flex;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 27px;
+    bottom: 22px;
 }
