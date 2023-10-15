@@ -13,8 +13,10 @@
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
+
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: -apple-system;
     height: 1000vh;
     color: #2f363e;
 }
