@@ -1,0 +1,62 @@
+.more-screen .user-component__subtitle {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.more-screen .icon-row {
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.last-icon-row {
+    width: 50%;
+}
+.icon-row__icon {
+    position: relative;
+}
+.more-screen .icon-row__icon span {
+    font-size: 14px;
+}
+
+.more-screen .icon-row__icon i {
+    margin-bottom: 10px;
+}
+.more-suggestions {
+    margin-top: 20px;
+    border-top: var(--main-border);
+    padding-top: 30px;
+}
+.more-suggestions__title {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.more-suggestions__icons {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+.more-suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.more-suggestions__icon-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    margin-bottom: 5px;
+}
+.more-suggestions__icon-text {
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 5px;
+    text-align: center;
+    width: 100px;
+}
+.more-dot {
+    right: 35px;
+    top: -8px;
+}
